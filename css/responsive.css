@@ -1,0 +1,108 @@
+@media (max-width: 1300px) {
+}
+
+@media (max-width: 1120px) {
+}
+
+@media (max-width: 992px) {
+  .hero_area {
+    height: auto;
+  }
+
+  .header_section .main_nav {
+    flex: 1;
+  }
+
+  #navbarSupportedContent {
+    margin-top: 15px;
+  }
+
+  .slider_section {
+    padding-top: 45px;
+    background-image: url('/images/main_background2.png');
+  }
+
+  .feature_section .feature_container .box {
+    padding: 30px 15px;
+  }
+
+  .feature_section .feature_container .box .img-box {
+    width: 75px;
+  }
+
+  .feature_section {
+    transform: none;
+    padding: 90px 0;
+    /* background-image: url('/images/electrics.png'); /* 경로에 맞는 이미지로 변경하세요 */
+    background-size: cover; /* 화면에 꽉 차도록 */
+    background-position: center; /* 가운데 정렬 */
+    background-repeat: no-repeat;
+  } */
+}
+
+@media (max-width: 767px) {
+  .layout_padding {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+
+  .layout_padding-top {
+    padding-top: 90px;
+  }
+
+  .layout_padding-bottom {
+    padding-bottom: 90px;
+  }
+
+  .slider_section .detail-box {
+    padding-bottom: 45px;
+  }
+
+  .feature_section .feature_container {
+    flex-direction: column;
+  }
+
+  .feature_section .feature_container .box {
+    padding: 30px 15px;
+  }
+
+  .feature_section .feature_container .box:not(:nth-last-child(1)) {
+    margin-bottom: 15px;
+  }
+
+  .about_section .detail-box {
+    margin-bottom: 45px;
+  }
+
+  .professional_section .img-box {
+    display: none;
+  }
+
+  .contact_section form {
+    margin-bottom: 45px;
+  }
+
+  .info_section .info_items::before {
+    width: 1px;
+    height: 90%;
+    top: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+}
+
+@media (max-width: 480px) {
+}
+
+@media (max-width: 400px) {
+}
+
+@media (max-width: 360px) {
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
